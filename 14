@@ -1,0 +1,23 @@
+Q. What is the output?
+
+ public class Test {
+    public static void main(String[] args) {
+        StringBuilder a = new StringBuilder("A");
+        StringBuilder b = new StringBuilder("B");
+        change(a, b);
+        System.out.println(a + "," + b);
+    }
+    static void change(StringBuilder x, StringBuilder y) {
+        y.append(x);
+        y = x;
+    }
+ }
+
+1). A,BA
+2). A,B
+3). A,A
+4). compile Erorr
+Solution :
+option [1] is correct
+Attempted :
+option [1] is attempted

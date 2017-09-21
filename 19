@@ -1,0 +1,15 @@
+Q. Which of the following is true?
+
+ A. An interface cannot be instantiated.
+ B. A final field of a class can be instantiated in the constructor. 
+ C. A protected field of a class is accessible by child class in any package.
+ D. A class can implement more than one interface
+
+1). A & D
+2). A, C & D
+3). A, B &D
+4). All of them
+Solution :
+option [4] is correct
+Attempted :
+option [2] is attempted

@@ -1,0 +1,20 @@
+Q. The following code :
+
+public class Test {
+    public static void main(String[] args) {
+    int a=5, b=7;
+    if(a & b > 0 && a | b > 0)
+        System.out.println("true");
+    else
+        System.out.println("false");
+    }
+}
+
+1). prints output true
+2). No output.
+3). does not compile
+4). runtime exception
+Solution :
+option [3] is correct
+Attempted :
+option [3] is attempted

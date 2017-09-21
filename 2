@@ -1,0 +1,22 @@
+Q. What will be the result?
+
+class TestModifiers{
+         int i;
+         public static void main (String[] args) {
+                   int i; //1
+                  private int a = 1; //2
+                  protected int b = 1; //3
+                  public int c = 1; //4
+                  System.out.println(a+b+c); //5
+         }
+}
+
+1). compiletime error at line 1,2,3,4,5;
+2). compiletime error at line 2,3,4,5;
+3). compiletime error at line 2,3,4;
+4). Prints 3
+5). None of the above
+Solution :
+option [2] is correct
+Attempted :
+option [4] is attempted

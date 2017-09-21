@@ -1,0 +1,21 @@
+Q. Which two classes inherit the Shape class correctly? (Choose two.)
+
+public abstract class Shape { 
+private int x; 
+private int y; 
+public abstract void draw(); 
+public void setAnchor(int x, int y) { 
+this.x = x; 17. this.y = y; 
+} 
+              }
+
+1). public class Circle implements Shape { private int radius; }
+2). public abstract class Circle extends Shape { private int radius; }
+3). public class Circle extends Shape { private int radius; public void draw(); }
+4). public abstract class Circle implements Shape { private int radius; public void draw(); }
+5). public class Circle extends Shape {
+private int radius; public void draw() {/* code here */} }
+Solution :
+option [2,5] are correct
+Attempted :
+option [3,5] are attempted

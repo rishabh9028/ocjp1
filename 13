@@ -1,0 +1,21 @@
+Q. What is the output of the following?
+
+1  class StringCheck {
+2
+3    static String[] str=new String[50];
+4    public static void main(String[] args) {
+5        for(int i=0; i<str.length; i++) {
+6           str[i] = i;
+7           System.out.print(str[i]);
+8        }
+9    }
+10 }
+
+1). compile error at line 6.
+2). 0 to 49 printed continuously.
+3). compile error at line 7.
+4). null printed 50 times.
+Solution :
+option [1] is correct
+Attempted :
+option [1] is attempted

@@ -1,0 +1,11 @@
+Q. Which statement is true?
+
+1). A class's finalize() method CANNOT be invoked explicitly. 
+2). super.finalize() is called implicitly by any overriding finalize() method. 
+3). The finalize() method for a given object is called no more than once by the garbage collector. 
+4). The order in which finalize() is called on two objects is based on the order in which the two objects 
+became finalizable.
+Solution :
+option [3] is correct
+Attempted :
+option [2] is attempted

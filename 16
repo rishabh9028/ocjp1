@@ -1,0 +1,21 @@
+Q. What will be the output?
+
+public class Test_1 {
+    static String str;
+       public static void main(String[] args) {
+        String s;
+        if(str=="abc")
+           s = str+10;
+        System.out.println(str);
+        System.out.print(s);
+       }
+}
+
+1). null and null are printed as output.
+2). runtime error.
+3). Compile error, cannot access str from main.
+4). Compile error, s not initialised.
+Solution :
+option [4] is correct
+Attempted :
+option [4] is attempted

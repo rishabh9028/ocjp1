@@ -1,0 +1,33 @@
+Q. What is the output if Main is run?
+
+public abstract class Vehicle {
+ private int tyres;
+ public void setTyres(int tyres) {
+   this.tyres = tyres;
+ } 
+ public int getTyres() {
+   return tyres;
+ } 
+}
+public class Car extends Vehicle {
+  @Override
+  public int getTyre() {
+     return super.getTyres()+1;
+  } 
+}
+public class Main {
+  public static void main(String args[]) {
+    Car c = new Car(); 
+    c.setTyres(5); 
+    System.out.println("Tyres = "+c.getTyres()); 
+  }
+}
+
+1). Tyres = 5
+2). compilation error
+3). Tyres = 6
+4). runtime exception
+Solution :
+option [2] is correct
+Attempted :
+option [2] is attempted

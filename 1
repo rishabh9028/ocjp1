@@ -1,0 +1,18 @@
+Q. Which two code fragments, inserted independently at line 3, generate the output 4247? (Choose two.)
+
+1.public class TestString3 { 
+2.      public static void main(String[] args) { 
+3.              // insert code here 
+4.            System.out.println(s); 
+5.      } 
+6. }
+
+1). String s = "123456789"; s = (s-"123").replace(1,3,"24") - "89";
+2). StringBuffer s = new StringBuffer("123456789"); s.delete(0,3).replace(1,3,"24").delete(4,6);
+3). StringBuffer s = new StringBuffer("123456789"); s.substring(3,6).delete(1,3).insert(1, "24");
+4). StringBuilder s = new StringBuilder("123456789"); s.substring(3,6).delete(1,2).insert(1, "24");
+5). StringBuilder s = new StringBuilder("123456789"); s.delete(0,3).delete(1,3).delete(2,5).insert(1, "24");
+Solution :
+option [2,5] are correct
+Attempted :
+option [2,3,5] are attempted

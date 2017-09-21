@@ -1,0 +1,26 @@
+Q. Given:
+
+1. static void test() throws RuntimeException { 
+2. try { 
+3. System.out.print("test "); 
+4. throw new RuntimeException(); 
+5. } 
+6. catch (Exception ex) { System.out.print("exception "); } 
+7. } 
+8. public static void main(String[] args) { 
+9. try { test(); } 
+10. catch (RuntimeException ex) { System.out.print("runtime "); } 
+11. System.out.print("end "); 
+12. } 
+
+What will be the result?
+
+1). test ends
+2). compilation error
+3). test runtime end
+4). test exception end
+5). A Throwable is thrown by main at runtime.
+Solution :
+option [4] is correct
+Attempted :
+option [1] is attempted

@@ -1,0 +1,23 @@
+Q. What will be the result?
+
+public class Yippee { 
+        public static void main(String [] args) { 
+                for(int x = 1; x < args.length; x++) { 
+                        System.out.print(args[x] + " "); 
+                } 
+        } 
+}
+and two separate command line invocations: 
+        java Yippee 
+        java Yippee 1 2 3 4 
+
+1). No output is produced. 1 2 3
+2). No output is produced. 2 3 4
+3). No output is produced. 1 2 3 4
+4). An exception is thrown at runtime. 1 2 3
+5). An exception is thrown at runtime. 2 3 4
+6). An exception is thrown at runtime. 1 2 3 4
+Solution :
+option [2] is correct
+Attempted :
+option [3] is attempted

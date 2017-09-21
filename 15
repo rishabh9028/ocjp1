@@ -1,0 +1,20 @@
+Q. What is the output for the following?
+
+   public class Test {
+      public static void main(String [] args) {
+         short a, b, c=0;
+         a=1;
+         b=2;
+         c=a+b;
+         System.out.println(c);
+      }
+  }
+
+1). Compile error.
+2). 3
+3). 1
+4). runtime exception
+Solution :
+option [1] is correct
+Attempted :
+option [1] is attempted
